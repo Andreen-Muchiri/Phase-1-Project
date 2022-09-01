@@ -93,7 +93,7 @@ h3 .about{
     width:100vmin;
     position: absolute;
     transform: translate(-50%,-50%);
-    top: 60%;
+    top: 55%;
     left: 50%;
     bottom: 60%;
     padding: 30px;
@@ -121,9 +121,9 @@ h3 .about{
 .about-col-1 img{
     position: absolute;
     width: 287px;
-    height: 219px;
+    height: 200px;
     left: 0px;
-    top: 80px;
+    top: 100px;
      /* position: absolute;
     width: 500px;
     height: 319px;
@@ -135,11 +135,11 @@ h3 .about{
 .about-col-2{
     flex-basis: 60%;
 }
-    
-    
-    
-   
-    
+ .features{
+    color: black;
+    display:flex;
+    justify-content: space-between;
+ }
      
 /* Dictionary styling */
 
