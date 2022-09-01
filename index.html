@@ -6,25 +6,50 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Learn_It</title>
         <link rel="stylesheet" href="./CSS/style.css">
-           
+        <!--Google Fonts-->  
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins" >
     </head>
     <body>
+      <!--Search box -->
+      <div class="container">
+        <div class="search-box">
+          <input 
+               type="text"
+               placeholder="Type the word here..."
+               id="inp-word"/>
+               <button id="search-btn">Search</button>
+        </div>
+      </div>
         <!--Add Home,AboutUs,Features and Contact US-->
+        <header>
         <div class="main">
-            <div cclass="navbar">
+            <div class="navbar">
               <div class="icon">
-                <h1 class="Logo">Learn_It.</h1>
+                <h1 class="logo">Learn_It.</h1>
               </div>
             </div>
-            <nav class="nav">
-              <ul class="nav__list">
-                <li class="nav__item"><a href="#HOME">Home</a></li>
-                <li class="nav__item"><a href="#ABOUT US">About Us</a></li>
-                <li class="nav__item"><a href="#FEATURES">Features</a></li>
-                <li class="nav__item"><a href="#CONTACT US">Contact US</a></li>
+           <!--Add menu--> -->    
+            <div class="menu">       
+             <ul >
+                <li ><a href="#HOME">Home</a></li>
+                <li ><a href="#ABOUT US">About Us</a></li>
+                <li ><a href="#FEATURES">Features</a></li>
+                <li ><a href="#CONTACT US">Contact US</a></li>
               </ul>
-            </nav>
+              </div>
+            
             </div>
+           </header>
+           <div class="content">
+           <!--<a href="#HOME" class="btn">Home</a>-->
+           <!--Introduction-->
+       <!--    <section class="intro" id="home">-->
+            <h2 class="section__title section__subtitle--intro">Welcome to<strong>Learn_It,</strong>
+            </h2>
+            <p class="par">Where learning and improving English vocabularly has never been easier. </p>
+            <!--Add an image-->
+           </section>
+           </div>
     </body>
     <script src="./JS/index.js"></script>
     </html>
