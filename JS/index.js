@@ -13,7 +13,7 @@ btn.addEventListener("click",() =>{
     result.innerHTML = `
      <div class="word">
     <h3>${inpWord}</h3>
-    <button>
+    <button onclick ="playSound()">
      <i class="fas fa-volume-up"></i>
     </button>
   </div>
@@ -27,5 +27,7 @@ btn.addEventListener("click",() =>{
 </p>
 <p class="word-example">${data[0].meanings[0].definitions[0].example ||""}
 </p>`;
+sound.setAttribute("src",`https:${data[0].phonetics[0].audio}`);
+console.log(sound);
 })
 });
