@@ -25,7 +25,7 @@ btn.addEventListener("click",() =>{
 <p class="word-meaning">
  ${data[0].meanings[0].definitions[0].definition}
 </p>
-<p class="word-example">Investigations involved analysing samples of handwriting
+<p class="word-example">${data[0].meanings[0].definitions[0].example ||""}
 </p>`;
 })
 });
