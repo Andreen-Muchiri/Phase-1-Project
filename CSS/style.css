@@ -14,12 +14,12 @@ body{
 }
 
   #header{
-
-width: 100%;
+background-color:bisque;
+/* width: 100%;
 height: 100vh;
 background-image: url(../img/syd-wachs-slItfWbhijc-unsplash.jpg);
 background-size: cover;
-background-position: center;
+background-position: center; */
 /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(waldemar-brandt-U3Ptj3jafX8-unsplash.jpg); */
   }
 .container-1{
@@ -64,32 +64,94 @@ nav ul li a:hover::after{
 
 /* header-text*/
 .header-text{
-    margin-top: 10%;
+    margin-top: 7%;
     font-size: 30px;
 }
 .header-text h1{
     font-size: 60px;
     margin-top:10px;
 }
+.header-text h1 span{
+    color: #ff004f;
+}
+img{
+    position: absolute;
+width: 287px;
+height: 319px;
+left: 0px;
+top: 550px;
 
+
+}
+/* About Us */
+h3 .about{
+    color: #000;
+    
+}
+.container-2{
+    background-color: #ffffff;
+    width:80vmin;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 60%;
+    left: 50%;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 20px 40px rgba(38, 33, 61,0.2 );
+
+
+}
+#about{
+    background-color: bisque;
+    padding: 70px 0;
+    color: black;
+
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.about-col-1{
+    flex-basis: 35%;
+
+}
+.about-col-1 img{
+    position: absolute;
+    width: 287px;
+    height: 319px;
+    left: 0px;
+    top: 142px;
+     /* position: absolute;
+    width: 500px;
+    height: 319px;
+    left: 0px;
+    top: 142px; */
+    
+    border-radius: 15px;
+}
+.about-col-2{
+    flex-basis: 60%;
+}
     
     
     
    
     
      
-
+/* Dictionary styling */
 
 
 
 .container{
     background-color: #ffffff;
-    width:90vmin;
+    width:80vmin;
     position: absolute;
     transform: translate(-50%,-50%);
-    top: 50%;
-    left: 50%;
-    padding: 20px;
+    top: 39%;
+    left: 40%;
+    padding: 10px;
     border-radius: 10px;
     box-shadow: 0 20px 40px rgba(38, 33, 61,0.2 );
 }
@@ -157,16 +219,6 @@ border-radius: 5px;
     margin-top: 80px;
     text-align: center;
 }
-.main{
-  
-    background-position: center;
-    background-size: cover;
-    height: 109vh;
-    width: 100%;
-
-}
-
-
 
 
 
@@ -201,7 +253,7 @@ ul li a{
     transition: 0.4s ease-in-out;
 }
 ul li a:hover{
-    color: bisque;
+    color: teal;
 }
 
 /*Home section*/
