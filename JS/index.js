@@ -23,7 +23,7 @@ btn.addEventListener("click",() =>{
     <p>/${data[0].phonetic}/</p>
 </div> 
 <p class="word-meaning">
-  A small part or quantity intended to show what the whole is like.
+ ${data[0].meanings[0].definitions[0].definition}
 </p>
 <p class="word-example">Investigations involved analysing samples of handwriting
 </p>`;
