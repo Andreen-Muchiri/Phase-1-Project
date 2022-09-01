@@ -12,10 +12,18 @@ body{
     background:  #000000; 
     color: #fff;
 }
-#header{
-  
-}
-img{
+
+  #header{
+    position: absolute;
+width: 779px;
+height: 461px;
+left: -5px;
+top: 0px;
+
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(.img/waldemar-brandt-U3Ptj3jafX8-unsplash.jpg);
+  }
+
+/* img{
     position: absolute;
 width: 814px;
 height: 611px;
@@ -24,7 +32,7 @@ top: 0px;
 background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(waldemar-brandt-U3Ptj3jafX8-unsplash.jpg);
 background: #000000;
     
-}
+} */
 /* navbar section*/
 #navbar
 {
@@ -49,7 +57,7 @@ background: #000000;
     transform: translate(-50%,-50%);
     top: 50%;
     left: 50%;
-    padding: 80px;
+    padding: 20px;
     border-radius: 10px;
     box-shadow: 0 20px 40px rgba(38, 33, 61,0.2 );
 }
@@ -126,17 +134,10 @@ border-radius: 5px;
 
 }
 
-.navbar{
-    width: 200px;
-    height: 75px;
-    margin: auto;
 
-}
-.icon{
-    width: 200px;
-    float: left;
-    height: 70px;
-}
+
+
+
 .logo{
     color: #ff7200;
     font-size: 35px;
@@ -146,13 +147,7 @@ border-radius: 5px;
     padding-top: 10px;
     
 };
-.menu{
-    width: 400px;
-    float: right;
-    height: 70px;
-    display: flex;
-    
-}
+
 
 ul{
     float: left;
@@ -174,23 +169,10 @@ ul li a{
     transition: 0.4s ease-in-out;
 }
 ul li a:hover{
-    color: orangered;
-}
-.par{
-    color: black;
-    text-align: left;
-    font-size: medium;
-    text-decoration: none;
-}
-/*Home section*/
-.content{
-    color: black;
+    color: bisque;
 }
 
-.section__title{
-  margin-bottom: .25em;
-}
-.section__title--intro{
-    font-weight: var(--fw-reg);
-}
+/*Home section*/
+
+
 
