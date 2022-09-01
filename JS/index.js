@@ -20,7 +20,7 @@ btn.addEventListener("click",() =>{
   <!-- Details-->
   <div class="details">
     <p>${data[0].meanings[0].partsOfSpeech}</p>
-    <p>/sample/</p>
+    <p>/${data[0].phonetic}/</p>
 </div> 
 <p class="word-meaning">
   A small part or quantity intended to show what the whole is like.
