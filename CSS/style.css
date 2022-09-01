@@ -135,11 +135,19 @@ h3 .about{
 .about-col-2{
     flex-basis: 60%;
 }
- .features{
-    color: black;
-    display:flex;
-    justify-content: space-between;
- }
+
+/* Contact section*/
+.contact-left{
+    flex-basis: 35%;
+    background-color: bisque;
+    
+
+}
+.contact-right{
+    flex-basis: 35%;
+    background-color: bisque;
+}
+
      
 /* Dictionary styling */
 
