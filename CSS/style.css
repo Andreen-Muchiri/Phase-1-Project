@@ -95,8 +95,10 @@ border-radius: 5px;
 };
 .menu{
     width: 400px;
-    float: left;
+    float: right;
     height: 70px;
+    display: flex;
+    
 }
 
 ul{
