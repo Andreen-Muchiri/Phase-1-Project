@@ -62,7 +62,15 @@ nav ul li a:hover::after{
 
 }
 
-/* navbar section*/
+/* header-text*/
+.header-text{
+    margin-top: 10%;
+    font-size: 30px;
+}
+.header-text h1{
+    font-size: 60px;
+    margin-top:10px;
+}
 
     
     
