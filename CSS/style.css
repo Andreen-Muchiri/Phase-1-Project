@@ -14,45 +14,44 @@ body{
 }
 
   #header{
-    position: absolute;
+
 width: 100%;
-height: 100%;
-left: -5px;
-top: 0px;
+height: 100vh;
 background-image: url(../img/syd-wachs-slItfWbhijc-unsplash.jpg);
-background: cover;
+background-size: cover;
+background-position: center;
 /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(waldemar-brandt-U3Ptj3jafX8-unsplash.jpg); */
   }
+.container-1{
+    padding: 10px 10%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.logo{
+    width: 140px;
 
-/* img{
-    position: absolute;
-width: 814px;
-height: 611px;
-left: 0px;
-top: 0px;
-background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(waldemar-brandt-U3Ptj3jafX8-unsplash.jpg);
-background: #000000;
-    
-} */
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+
+}
+
 /* navbar section*/
-h1{
-    position: left;
-}
-.menu{
-    position: absolute;
-width: 93px;
-height: 20px;
-left: 607px;
-top: 31px;
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 15px;
+    
+    
+    
+   
+    
+     
 
-color: #FFFFFF;
-}
+
 
 
 .container{
