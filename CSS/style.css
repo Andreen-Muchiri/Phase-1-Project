@@ -159,10 +159,10 @@ h3 .about{
     position: absolute;
     transform: translate(-50%,-50%);
     top: 39%;
-    left: 40%;
+    left: 60%;
     padding: 10px;
     border-radius: 10px;
-    box-shadow: 0 20px 40px rgba(38, 33, 61,0.2 );
+    box-shadow: 0 10px 20px rgba(38, 33, 61,0.2 );
 }
 .search-box{
     width:100%;
